@@ -26,7 +26,7 @@ class PahocppConan(ConanFile):
         "0002-fix-cmake-find-paho-mqtt-c-static.patch",
         "0003-fix-paho-mqtt-cpp-config-cmake.patch"
     ]
-    requires = "paho-c/1.3.0@conan/stable"
+    requires = "paho-c/1.3.0@lightform/stable"
 
     def config_options(self):
         if self.settings.os == "Windows":
